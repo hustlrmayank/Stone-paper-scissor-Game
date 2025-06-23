@@ -1,3 +1,46 @@
+/* ...existing code... */
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 1.5rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .choice,
+    img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 2.5rem;
+    }
+
+    #msg {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .msg-container {
+        margin-top: 2rem;
+    }
+}
+/* ...existing code... */
 *{
     padding: 0;
     margin: 0;
@@ -50,7 +93,7 @@ img {
 #msg {
     background-color: #081b31;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1rem;
     display: inline;
     padding: 1rem;
     border-radius: 10px;
